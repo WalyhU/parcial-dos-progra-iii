@@ -24,7 +24,7 @@ public class SubjectAssignmentsController {
         try {
             return subjectAssignmentsService.findBySubjectId(param);
         } catch (Exception e) {
-            return subjectAssignmentsService.findByStudentId(param);
+            return subjectAssignmentsService.findBySubjectId(param);
         }
     }
 
