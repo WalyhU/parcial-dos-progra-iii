@@ -1,1 +1,1 @@
-insert into products (name, price) values ('Product 1', 100);
+insert into students (name, email, date_of_birth, created_at) values ('Juan :D', 'ejemplo@gmail.com', '1990-01-01', NOW());
