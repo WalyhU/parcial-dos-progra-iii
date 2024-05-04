@@ -1,0 +1,1 @@
+insert into products (name, price) values ('Product 1', 100);
